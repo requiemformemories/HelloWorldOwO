@@ -1,0 +1,62 @@
+header{
+	background-image: url(images/header.jpg);
+	padding-bottom: 30px;
+	text-shadow:0 0 10px rgba(255,255,255,1);
+}
+header h1{
+	font-size: 80px;
+	padding-top: 120px;
+	padding-bottom: 120px;	
+	font-family: "GungsuhChe", "Arial";
+	/*text-shadow: 0px 0px 3px white;*/
+}
+.navbar-default {
+  background-color: rgba(0%, 0%, 0%, 0);
+  border:none;
+}
+.menu{
+	font-size: 30px;
+	font-family: "GungsuhChe", "Arial";;
+
+	padding-bottom: 20px; 
+}
+
+.menu a{
+	color:rgba(0%, 0%, 0%, 0.7);;
+}
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+  background-color: rgba(100%, 100%, 100%, 0.3);
+}
+article{
+	/*background-image: url(images/background.jpg);*/
+	padding-top: 50px;
+}
+article{
+	font-family: "微軟正黑體", "新細明體";
+	font-size: 20px;
+}
+.content{
+	padding-bottom: 50px; 
+}
+footer{
+	background-color: #333333;
+	color:#FFFFFF;
+	height: 60px;
+}
+footer p{
+	padding:10px; 
+}
+
+/*works*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+	background-image: url(images/pill.jpg);
+}
+.page-header{
+	margin-top: 0;
+}
+@media (max-width: 767px){  /*手機 */
+	header h1{
+		font-size: 60px;
+	}
+}
